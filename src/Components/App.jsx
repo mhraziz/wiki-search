@@ -2,8 +2,8 @@ import { useState } from "react";
 import Search from '../api';
 import SearchBar from './SearchBar';
 import ArticleList from './ArticleList';
-//import './App.css';
-//import logo from './wikipedia-logo.png';
+import './App.css';
+import logo from '../logo.jpeg';
 
 
 const App=()=>{
@@ -25,17 +25,23 @@ const App=()=>{
 
       return(
         <>
+        
         <header>
-            {/* <img src={logo} alt="wikipedia"/> */}
+            {<img src={logo} alt="wikipedia"/>}
             <h1>Wikipedia Search</h1>
             <SearchBar onSearch={handleSearch}/>
         </header>
+
+         
+
+         
 
         <main id="searchResult">
         {isLoading && <p>Loading...</p>}
         {error && <p className="error">{error}</p>}
             <ArticleList articles={articles}/>
         </main>
+        
         </>
       );
 };
