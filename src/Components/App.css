@@ -14,8 +14,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.8;
-  background-color: #fff;
+  background-color: #efefef;
   margin: 0 20px;
+  background-image: url(../bg5.jpeg);
 }
 
 a {
@@ -44,8 +45,8 @@ main {
 
 h1 {
   padding: 5px 0;
-  font-size: 1.7rem;
-  color: #111;
+  font-size: 2rem;
+  color: #0a0101;
   text-align: center;
 }
 form {
@@ -55,23 +56,29 @@ form {
 input[type='search'] {
   padding: 10px 20px;
   font-size: 16px;
-  border: solid 2px #f0f0f0;
+  border: solid 5px aqua;
   border-radius: 50px;
   outline: none;
-  width: 100%;
+  width: 90%;
+  height: 100%;
+  
 }
 
 #searchResult {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+  color: rgb(0, 6, 6); 
 }
 
 #searchResult article {
-  padding: 0;
+  padding: 1;
   margin: 20px 0;
+  font-size: 1.5rem;
+  font-style: italic;
+  color:rgb(0, 14, 14);
 }
 
 #searchResult article h2 {
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 
 .highlight {

@@ -3,7 +3,7 @@ import Search from '../api';
 import SearchBar from './SearchBar';
 import ArticleList from './ArticleList';
 import './App.css';
-import logo from '../logo.jpeg';
+import logo from '../logo.png';
 
 
 const App=()=>{
